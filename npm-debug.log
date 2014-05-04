@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/fonz/.nvm/v0.11.12/bin/node',
+1 verbose cli   '/Users/fonz/.nvm/v0.11.12/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.11.12
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/fonz/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+12 verbose folder .
+13 info prepublish sked@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/fonz/.npm/1f1177db-tar.lock
+16 silly lockFile f45a8e9c-5807-0-00696962233632803-tmp-tgz tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+17 verbose lock tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz /Users/fonz/.npm/f45a8e9c-5807-0-00696962233632803-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile f45a8e9c-5807-0-00696962233632803-tmp-tgz tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+21 silly lockFile f45a8e9c-5807-0-00696962233632803-tmp-tgz tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+22 verbose tar unpack /var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+23 silly lockFile c6c6f332-5807-0-00696962233632803-package tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+24 verbose lock tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package /Users/fonz/.npm/c6c6f332-5807-0-00696962233632803-package.lock
+25 silly lockFile f45a8e9c-5807-0-00696962233632803-tmp-tgz tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+26 verbose lock tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz /Users/fonz/.npm/f45a8e9c-5807-0-00696962233632803-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry Gruntfile.js
+32 silly gunzTarPerm extractEntry lib/sked.js
+33 silly gunzTarPerm extractEntry spec/schedulerSpec.js
+34 silly lockFile c6c6f332-5807-0-00696962233632803-package tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+35 silly lockFile c6c6f332-5807-0-00696962233632803-package tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+36 silly lockFile f45a8e9c-5807-0-00696962233632803-tmp-tgz tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+37 silly lockFile f45a8e9c-5807-0-00696962233632803-tmp-tgz tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/tmp.tgz
+38 verbose tar pack [ '/Users/fonz/.npm/sked/0.0.0/package.tgz',
+38 verbose tar pack   '/var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package' ]
+39 verbose tarball /Users/fonz/.npm/sked/0.0.0/package.tgz
+40 verbose folder /var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+41 silly lockFile c6c6f332-5807-0-00696962233632803-package tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+42 verbose lock tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package /Users/fonz/.npm/c6c6f332-5807-0-00696962233632803-package.lock
+43 silly lockFile 20ae0947--fonz-npm-sked-0-0-0-package-tgz tar:///Users/fonz/.npm/sked/0.0.0/package.tgz
+44 verbose lock tar:///Users/fonz/.npm/sked/0.0.0/package.tgz /Users/fonz/.npm/20ae0947--fonz-npm-sked-0-0-0-package-tgz.lock
+45 silly lockFile c6c6f332-5807-0-00696962233632803-package tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+46 silly lockFile c6c6f332-5807-0-00696962233632803-package tar:///var/folders/qn/vx_8xmd54c36j51kfcv5qj6r0000gn/T/npm-5009-Er3m5wt8/1399219095807-0.00696962233632803/package
+47 silly lockFile 20ae0947--fonz-npm-sked-0-0-0-package-tgz tar:///Users/fonz/.npm/sked/0.0.0/package.tgz
+48 silly lockFile 20ae0947--fonz-npm-sked-0-0-0-package-tgz tar:///Users/fonz/.npm/sked/0.0.0/package.tgz
+49 silly lockFile 862d836e-sers-fonz-npm-sked-0-0-0-package /Users/fonz/.npm/sked/0.0.0/package
+50 verbose lock /Users/fonz/.npm/sked/0.0.0/package /Users/fonz/.npm/862d836e-sers-fonz-npm-sked-0-0-0-package.lock
+51 silly lockFile 862d836e-sers-fonz-npm-sked-0-0-0-package /Users/fonz/.npm/sked/0.0.0/package
+52 silly lockFile 862d836e-sers-fonz-npm-sked-0-0-0-package /Users/fonz/.npm/sked/0.0.0/package
+53 verbose tar unpack /Users/fonz/.npm/sked/0.0.0/package.tgz
+54 silly lockFile 8b27450e-sers-fonz-npm-sked-0-0-0-package tar:///Users/fonz/.npm/sked/0.0.0/package
+55 verbose lock tar:///Users/fonz/.npm/sked/0.0.0/package /Users/fonz/.npm/8b27450e-sers-fonz-npm-sked-0-0-0-package.lock
+56 silly lockFile 20ae0947--fonz-npm-sked-0-0-0-package-tgz tar:///Users/fonz/.npm/sked/0.0.0/package.tgz
+57 verbose lock tar:///Users/fonz/.npm/sked/0.0.0/package.tgz /Users/fonz/.npm/20ae0947--fonz-npm-sked-0-0-0-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry Gruntfile.js
+63 silly gunzTarPerm extractEntry lib/sked.js
+64 silly gunzTarPerm extractEntry spec/schedulerSpec.js
+65 silly lockFile 8b27450e-sers-fonz-npm-sked-0-0-0-package tar:///Users/fonz/.npm/sked/0.0.0/package
+66 silly lockFile 8b27450e-sers-fonz-npm-sked-0-0-0-package tar:///Users/fonz/.npm/sked/0.0.0/package
+67 silly lockFile 20ae0947--fonz-npm-sked-0-0-0-package-tgz tar:///Users/fonz/.npm/sked/0.0.0/package.tgz
+68 silly lockFile 20ae0947--fonz-npm-sked-0-0-0-package-tgz tar:///Users/fonz/.npm/sked/0.0.0/package.tgz
+69 verbose chmod /Users/fonz/.npm/sked/0.0.0/package.tgz 644
+70 verbose chown /Users/fonz/.npm/sked/0.0.0/package.tgz [ 501, 20 ]
+71 silly lockFile 3a52ce78- .
+72 silly lockFile 3a52ce78- .
+73 silly publish { name: 'sked',
+73 silly publish   version: '0.0.0',
+73 silly publish   description: 'Scheduler based in javascript Timeouts and Intervals',
+73 silly publish   main: 'lib/sked.js',
+73 silly publish   scripts: { test: 'grunt jasmine_node' },
+73 silly publish   repository: { type: 'git', url: 'git://github.com/botverse/sked.git' },
+73 silly publish   keywords: [ 'scheduler', 'util', 'server' ],
+73 silly publish   author: { name: 'Alfonso', url: 'Fonz' },
+73 silly publish   license: 'MIT',
+73 silly publish   bugs: { url: 'https://github.com/botverse/sked/issues' },
+73 silly publish   homepage: 'https://github.com/botverse/sked',
+73 silly publish   dependencies: { ms: '^0.6.2' },
+73 silly publish   devDependencies:
+73 silly publish    { grunt: '^0.4.4',
+73 silly publish      'jasmine-node': '^1.14.3',
+73 silly publish      'grunt-jasmine-node': '^0.2.1' },
+73 silly publish   readme: 'sked\n====\n\nScheduler based in Javascript timers\n\n## Usage\n\nUse [https://github.com/guille/ms.js/](ms.js) for times if you want.\n\n```javascript\n// if the start attribute is `now`\n// it will be 0\n// if the period attribute is omited\n// it will run only once\nvar config = {\n  start: { date, string or ms },\n  period: { ms or string }\n};\n\n// if you pass an integer or a string as config,\n// that will be the period and the first execution\n// will be `now`\n// var config = 0;\n\n// given context for the callback\n// if ommited the context will be\n// Sked instance itself\nvar context = this;\n\nvar scheduler = new Sked(config, function() {\n  // do stuff\n  ...\n  // if you want to stop the execution:\n  scheduler.stop();\n}, context);\n```\n\n',
+73 silly publish   readmeFilename: 'README.md',
+73 silly publish   _id: 'sked@0.0.0',
+73 silly publish   dist: { shasum: '804c58dd28072b66f41e88e8b9012a9b1a500004' },
+73 silly publish   _from: '.' }
+74 verbose url raw sked
+75 verbose url resolving [ 'https://registry.npmjs.org/', './sked' ]
+76 verbose url resolved https://registry.npmjs.org/sked
+77 info trying registry request attempt 1 at 16:58:15
+78 http PUT https://registry.npmjs.org/sked
+79 http 403 https://registry.npmjs.org/sked
+80 error publish Failed PUT 403
+81 error Error: forbidden Cannot replace previously published version: 0.0.0: sked
+81 error     at RegClient.<anonymous> (/Users/fonz/.nvm/v0.11.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+81 error     at Request.self.callback (/Users/fonz/.nvm/v0.11.12/lib/node_modules/npm/node_modules/request/request.js:123:22)
+81 error     at Request.EventEmitter.emit (events.js:107:17)
+81 error     at Request.<anonymous> (/Users/fonz/.nvm/v0.11.12/lib/node_modules/npm/node_modules/request/request.js:893:14)
+81 error     at Request.EventEmitter.emit (events.js:126:20)
+81 error     at IncomingMessage.<anonymous> (/Users/fonz/.nvm/v0.11.12/lib/node_modules/npm/node_modules/request/request.js:844:12)
+81 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+81 error     at _stream_readable.js:895:16
+81 error     at process._tickCallback (node.js:339:11)
+82 error If you need help, you may report this *entire* log,
+82 error including the npm and node versions, at:
+82 error     <http://github.com/npm/npm/issues>
+83 error System Darwin 13.1.0
+84 error command "/Users/fonz/.nvm/v0.11.12/bin/node" "/Users/fonz/.nvm/v0.11.12/bin/npm" "publish"
+85 error cwd /Volumes/Data/Projects/sked
+86 error node -v v0.11.12
+87 error npm -v 1.4.3
+88 verbose exit [ 1, true ]
