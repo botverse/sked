@@ -27,6 +27,25 @@ var scheduler = sked(config, function() {
 }, context);
 ```
 
+if you don't pass a context, it will be the scheduler itself
+
+```javascript
+sked(config, function() {
+  // do stuff
+  if (something) this.stop();
+});
+```
+
+There is a start method that can be accessed using sked as a constructor
+if you pass true to this method it will execute `now` doesn't mater
+when the start time it's set to
+
+```javascript
+var Sked = require('sked');
+var scheduler = new Sked(config, function() {});
+scheduler.start(true); // will do now
+```
+
 ## Config options
 
 You can skip the options and by default they will became:
@@ -38,7 +57,7 @@ You can skip the options and by default they will became:
 So this will work once a day from now:
 
 ```javascript
-var scheduler = new Sked(function() {
+var scheduler = sked(function() {
 // do stuff
 });
 ```
