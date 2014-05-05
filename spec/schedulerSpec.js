@@ -98,4 +98,20 @@ describe('Sked', function() {
       });
     });
   });
+
+  describe('with Date object', function() {
+    beforeEach(function(){
+      var time = new Date(new Date().getTime() + 100);
+      per = new Sked({ start: time, period: 100 }, function(){
+        results.touch();
+      });
+    });
+
+    it('should callback later', function() {
+      per.start();
+      expect(results.size()).toBe(0);
+      expect(per.timeout._idleTimeout).toBe(100);
+      per.stop();
+    });
+  });
 });
