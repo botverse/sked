@@ -36,9 +36,9 @@ sked(config, function() {
 });
 ```
 
-There is a start method that can be accessed using sked as a constructor
-if you pass true to this method it will execute `now` doesn't mater
-when the start time it's set to
+There is a start method that can be accessed using sked as a constructor.
+If you pass true to this method it will execute `now` (synchronously) in case the
+start time is not `0` or `now`.
 
 ```javascript
 var Sked = require('sked');
