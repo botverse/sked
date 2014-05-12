@@ -3,6 +3,12 @@ sked
 
 Scheduler based in Javascript timers
 
+## Installation
+
+```bash
+$ node install --save sked
+```
+
 ## Usage
 
 The constructor accepts 3 arguments: `config`, `callback` and `context`.
