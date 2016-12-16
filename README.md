@@ -68,7 +68,7 @@ var scheduler = sked(function() {
 });
 ```
 
-*start*:
+**start**:
 
 start can be omitted and will became `now`:
 
@@ -100,7 +100,7 @@ or milliseconds:
 var config = { start: 60000, period:... };
 ```
 
-*period*:
+**period**:
 
 If period is omitted, will run only once, but for
 that purpose you better use just a setTimeout unless
@@ -121,5 +121,7 @@ var config = '1m';
 var config = 60000;
 ```
 
+**preRun**:
 
+Default false. It's equivalent to passing true to the start method `skedInstance.start(true)`.
 

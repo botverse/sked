@@ -114,4 +114,24 @@ describe('Sked', function() {
       per.stop();
     });
   });
+
+  describe('with preRun', function() {
+    beforeEach(function() {
+      var time = 100;
+      per = new Sked({ preRun: true, start: time }, function() {
+        results.touch();
+      });
+    });
+
+    it('should run the callback 2 times after a hundred', function() {
+      runs(function() { per.start() });
+
+      waits(100);
+
+      runs(function() {
+        expect(results.size()).toBe(2);
+        per.stop();
+      });
+    });
+  });
 });
